@@ -1,0 +1,20 @@
+{
+  "name": "blog-website",
+  "version": "1.0.0",
+  "description": "A project that uses node.js to make a blog website",
+  "main": "src/run.js",
+  "scripts": {
+    "start": "node src/run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-hbs": "^1.0.4",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "debug": "^3.2.3"
+  }
+}
